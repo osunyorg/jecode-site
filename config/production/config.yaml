@@ -2,6 +2,11 @@
 
 baseURL: https://www.jecode.coop
 
+## OSUNY
+osuny:
+  website:
+    id: c0f5deda-3175-4cbb-86a5-f8fee87b59bf
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
