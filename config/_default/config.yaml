@@ -1,9 +1,18 @@
 theme: osuny
 _merge: deep
 params:
-  summary:
-    position: hero
   breadcrumb:
     position: after-hero
+  persons:
+    single:
+      backlinks: true
+  posts:
+    index:
+      layout: grid
+  organizations:
+    single:
+      backlinks: true
   search:
-    active: false
+    active: true
+  summary:
+    position: hero
