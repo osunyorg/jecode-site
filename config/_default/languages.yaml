@@ -12,10 +12,12 @@ fr:
 
   permalinks:
     pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
     posts: /entretiens/:year-:month-:day-:slug/
     posts_categories: /entretiens/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
+    persons: /personnes/:slug/
+    persons_categories: /personnes/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
