@@ -22,3 +22,13 @@ h1
     footer#document-footer
         > .container:first-of-type
             justify-content: center
+
+.hero
+    padding-bottom: 0
+    @include media-breakpoint-up(desktop)
+        min-height: space(50)
+    .content
+        padding-top: space(10)
+        .hero-text
+            margin-top: 0
+
