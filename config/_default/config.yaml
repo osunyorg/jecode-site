@@ -16,3 +16,6 @@ params:
     active: true
   summary:
     position: hero
+  home:
+    head:
+      title: site
