@@ -7,15 +7,15 @@ h1
             aspect-ratio: 1
 @include media-breakpoint-up(desktop)
     // header#document-header
-    //     nav 
+    //     nav
     //         .logo
     //             margin-bottom: $spacing-3
     //         .container
     //             flex-direction: column
-    //         .menu 
-    //             .nav-level-1 
-    //                 > li:last-child 
-    //                     a, 
+    //         .menu
+    //             .nav-level-1
+    //                 > li:last-child
+    //                     a,
     //                     span
     //                         padding-left: $spacing-2
     //                         padding-right: $spacing-2
@@ -32,3 +32,11 @@ h1
         .hero-text
             margin-top: 0
 
+header#document-header
+    .menu
+        ul li
+            a
+                &:hover
+                    color: var(--color-accent)
+        .active
+            color: var(--color-accent)
