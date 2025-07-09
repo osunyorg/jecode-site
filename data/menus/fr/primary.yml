@@ -15,4 +15,11 @@ items:
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
+- title: Ressources
+  target: "/ressources/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/ressources"
+  file: content/fr/pages/ressources/_index.html
 
